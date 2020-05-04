@@ -1,0 +1,79 @@
+/*
+** Theme Name: Rom Link
+** Description: Rom Link Theme
+** Version: 1.0
+** Theme URI: http://www.rom-link.com
+** Author: Millo Lailang
+** Author URI: http://www.rom-link.com
+** License: GPL
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	padding: 0 100px;
+}
+
+#logo {
+	line-height: 100px;
+	width: 20%;
+}
+
+.header-menu {
+	width: 80%; 
+}
+
+#menu-primary-menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#menu-primary-menu li {
+	margin-left: 50px;
+	line-height: 100px;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+
+.footer-sidebars-main-container {
+	width: 100%;
+	display: flex;
+}
+
+.footer-sidebar-container {
+	width: 33.33%;
+	padding: 70px 100px;
+}
+
+#copyright-container {
+	display: flex;
+	padding: 50px 100px;
+}
+
+#top {
+	margin-left: auto;
+	width: 30px;
+	height: 30px;
+	border-top: 6px solid lightblue;
+	border-left: 6px solid lightblue;
+	transform: rotateZ(45deg);
+}
